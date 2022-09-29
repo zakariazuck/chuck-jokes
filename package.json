@@ -2,9 +2,10 @@
   "name": "chuck-jokes",
   "version": "1.0.0",
   "description": "This work is meant to bring a bit of a smile to the world.",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "n"
+    "start": "webpack  --config webpack.config.js"
   },
   "repository": {
     "type": "git",
