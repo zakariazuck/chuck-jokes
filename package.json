@@ -1,0 +1,26 @@
+{
+  "name": "chuck-jokes",
+  "version": "1.0.0",
+  "description": "This work is meant to bring a bit of a smile to the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakariazuck/chuck-jokes.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "sass",
+    "api",
+    "joke"
+  ],
+  "author": "Zuck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakariazuck/chuck-jokes/issues"
+  },
+  "homepage": "https://github.com/zakariazuck/chuck-jokes#readme"
+}
