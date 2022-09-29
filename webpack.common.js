@@ -6,6 +6,10 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
+    new webpack.ProvidePlugin({
+      'React':     'react',
+      'ReactDOM':   'react-dom/client',
+    })
   ],
   module: {
     rules: [
@@ -16,6 +20,12 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
+        use: {
+            loader: 'babel-loader',
+            options: {
+                presets: ['@babel/preset-env', '@babel/preset-react']
+            }
+        }
       },
       {
         test: /\.(svg|png|jpg|gif)$/,
