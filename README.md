@@ -1,2 +1,2 @@
 # chuck-jokes
-This work is made to bring a little smile to the world 
+This work is meant to bring a bit of a smile to the world.
