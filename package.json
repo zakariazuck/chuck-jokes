@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/zakariazuck/chuck-jokes/issues"
   },
-  "homepage": "https://github.com/zakariazuck/chuck-jokes#readme"
+  "homepage": "https://github.com/zakariazuck/chuck-jokes#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1"
+  }
 }
