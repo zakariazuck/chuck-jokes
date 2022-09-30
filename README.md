@@ -11,6 +11,7 @@ You can find a version of the application on the review channel.
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 
 ## Installation
 To use this work: Clone the repo on your machine, install the necessary packages and run npm start, to execute the project locally.
@@ -19,11 +20,19 @@ To use this work: Clone the repo on your machine, install the necessary packages
         git clone https://github.com/zakariazuck/chuck-jokes.git
 * ### Installation 
         npm install
-* ### Build 
-To make a bundle of the application.
+* ### Build
+  To make a bundle of the application. 
 
         npm run build
+  You'll find the bundle in the Dist directory.
 
-You'll find the bundle in the Dist directory.
+## [🔝 Go to the top](#chuck-jokes)
+
+## Usage
+
+* ### **css-minimizer-webpack-plugin** version [@4.2.0](https://github.com/webpack-contrib/css-minimizer-webpack-plugin/issues/198")  is not stable
+* Not a fix, but just roll back to the most recent version @4.1.0 and it will work fine
+
+        npm i --save-dev css-minimizer-webpack-plugin@4.1.0  
 
 ## [🔝 Go to the top](#chuck-jokes)
