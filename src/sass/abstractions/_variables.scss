@@ -1,0 +1,47 @@
+//* Colors var
+
+$white: #f9f9f9;
+$white-two: #ffffff;
+
+$black: #303030;
+$black-two: #000000;
+
+$gray: #5e5e5e;
+$gray-ligh: #b2b2b2;
+
+$red: #ff5b5b;
+
+$green-kiwi: #8fe360;
+$green-weird: #57e690;
+
+$orange-pastel: #ff915b;
+$orange-pale: #ffbe5b;
+
+$bleu: #57dbe6;
+
+$gold-light: #ffdf5b;
+
+$brown-sorrell: #CFB995;
+$brown-sorrell-two: #D0BA93;
+
+
+//* Colors map 
+
+$colors: (
+  "white": $white,
+  "white-two": $white-two,
+  "black": $black,
+  "black-two": $black-two,
+  "gray": $gray,
+  "gray-ligh": $gray-ligh,
+  "red": $red,
+  "green-kiwi": $green-kiwi,
+  "green-weird": $green-weird,
+  "orange-pastel": $orange-pastel,
+  "orange-pale": $orange-pale,
+  "bleu": $bleu,
+  "gold-light": $gold-light,
+  "brown-sorrell": $brown-sorrell,
+  "brown-sorrell-two": $brown-sorrell-two,
+)
+

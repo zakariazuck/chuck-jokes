@@ -1,0 +1,35 @@
+@each $key, $val in $colors {
+    .text-#{$key} {
+      color: $val;
+    }
+    .bg-#{$key} {
+      background-color: $val;
+    }
+    @if ($val != black and $val != white) {
+        //* light hover variante
+        
+        .text-hover-#{$key}-light {
+            &:hover {
+                color: mix(white, $val, 30);
+            }
+        }
+        .bg-hover-#{$key}-light {
+            &:hover {
+                background-color: mix(white, $val, 30);
+            }
+        }
+    
+        //* dark hover variante
+        .text-hover-#{$key}-dark {
+            &:hover {
+            color: mix(black, $val, 30);
+            }
+        }
+        .bg-hover-#{$key}-dark {
+            &:hover {
+                background-color: mix(black, $val, 30);
+            }
+        }
+        
+    }
+}
