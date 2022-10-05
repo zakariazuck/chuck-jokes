@@ -1,0 +1,50 @@
+@mixin font-size($fs-map, $fs-breakpoints: $breakpoints) {
+    @each $fs-breakpoint, $fs-font-size in $fs-map {
+      @if $fs-breakpoint == null {
+        @include make-font-size($fs-font-size);
+      }
+      @else {
+        @if map-has-key($fs-breakpoints, $fs-breakpoint) {
+          $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+        }
+        @media screen and (min-width: $fs-breakpoint) {
+          @include make-font-size($fs-font-size);
+        }
+      }
+    }
+  }
+  
+  
+@mixin make-font-size($fs-font-size) {
+    @if type-of($fs-font-size) == "list" {
+        font-size: nth($fs-font-size, 1);
+        @if (length($fs-font-size) > 1) {
+            line-height: nth($fs-font-size, 2);
+        }
+    }
+    @else {
+        font-size: $fs-font-size;
+    }
+}
+  
+
+
+h1 {
+    @include font-size($h1-fs);
+    @extend .font-Montserrat-Regular;
+}
+
+h2 {
+    @include font-size($h2-fs);
+    @extend .font-Montserrat-Regular;
+}
+
+body,p {
+    @include font-size($p-fs);
+    @extend .font-Montserrat-Regular;
+}
+
+h3 {
+    @include font-size($p-fs);
+    @extend .font-Montserrat-SemiBold;
+}
