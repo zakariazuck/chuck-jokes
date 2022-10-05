@@ -53,3 +53,27 @@ $breakpoints: (
   "lg": 960px,
   "xl": 1200px,
 );
+
+//* font sizes 
+$h1-fs:(
+  "xs":2rem,
+  "sm":2.25rem,
+  "md":2.5rem,
+  "lg":2.75rem,  
+  "xl":3rem,
+);
+
+
+$p-fs:(  
+  "xs":.75rem,
+  "sm":.75rem,
+  "xl":.875rem,
+);
+
+$h2-fs:(
+  "xs":1.5rem,
+  "sm":1.75rem,
+  "md":2rem,
+  "lg":2.25rem,  
+  "xl":2.5rem,
+);
