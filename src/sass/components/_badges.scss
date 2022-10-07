@@ -1,0 +1,36 @@
+@use 'sass:math';
+
+@mixin badge($bg-color: #e2e2e2) {
+  border-radius: 999em;
+  background-color: $bg-color;
+  padding: math.div($base-padding, 4) math.div($base-padding, 1);
+  font-weight: normal;
+}
+
+.badge {
+  @include badge;
+}
+
+@each $key, $val in $colors {
+  .badge-#{$key} {
+      @include badge($val);
+      &:hover {
+          background-color: lighten($val, 5);
+      }
+  }
+  .badge-outlined-#{$key} {
+      @include badge(#fff);
+      border: $base-border-thickness solid $val;
+      &:hover {
+          background-color: $val;
+      }
+  }
+  .badge-complement-#{$key} {
+      @include badge($val);
+      color: light-comp($val);
+      &:hover {
+          color: $val;
+          background-color: light-comp($val);
+      }
+  }
+}

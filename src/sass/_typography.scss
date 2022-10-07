@@ -27,8 +27,6 @@
     }
 }
   
-
-
 h1 {
     @include font-size($h1-fs);
     @extend .font-Montserrat-Regular;
@@ -44,12 +42,7 @@ body,p {
     @extend .font-Montserrat-Regular;
 }
 
-h3 {
-    @include font-size($p-fs);
-    @extend .font-Montserrat-SemiBold;
-}
-
-button {
+h3, button, span {
     @include font-size($p-fs);
     @extend .font-Montserrat-SemiBold;
 }
