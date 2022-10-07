@@ -29,7 +29,7 @@ To use this work: Clone the repo on your machine, install the necessary packages
         npm run build
   You'll find the bundle in the Dist directory.
 
-## [🔝 Go to the top](#chuck-jokes)
+### [🔝 Go to the top](#chuck-jokes)
  
 
 
@@ -40,9 +40,9 @@ To use this work: Clone the repo on your machine, install the necessary packages
 
         npm i --save-dev css-minimizer-webpack-plugin@4.1.0  
 
-## [🔝 Go to the top](#chuck-jokes)
+### [🔝 Go to the top](#chuck-jokes)
 
 
 ## Backlog
 [My little plan](https://github.com/users/zakariazuck/projects/1/views/1)
-## [🔝 Go to the top](#chuck-jokes)
+### [🔝 Go to the top](#chuck-jokes)
