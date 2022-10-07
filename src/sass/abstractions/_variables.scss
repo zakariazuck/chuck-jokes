@@ -77,3 +77,34 @@ $h2-fs:(
   "lg":2.25rem,  
   "xl":2.5rem,
 );
+
+$btn-fs:(
+  "xs":1.5rem,
+  "sm":1.75rem,
+  "md":2rem,
+  "lg":2.25rem,  
+  "xl":2.5rem,
+);
+
+
+
+//* spacing
+
+$base-padding: 14px !default;
+$base-margin: 10px !default;
+
+
+//* border
+
+$base-border-thickness: 0px !default;
+$base-border-radius: 2px !default;
+
+
+//* shadow opacity
+
+$shadow-opacity: 0.15;
+
+
+//* box-shadow
+
+$base-box-shadow: 0 1px 7px 0 rgba( $black-two, $shadow-opacity ) !default;

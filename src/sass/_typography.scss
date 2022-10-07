@@ -48,3 +48,8 @@ h3 {
     @include font-size($p-fs);
     @extend .font-Montserrat-SemiBold;
 }
+
+button {
+    @include font-size($p-fs);
+    @extend .font-Montserrat-SemiBold;
+}
