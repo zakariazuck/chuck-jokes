@@ -7,14 +7,14 @@
 
 You can find a version of the application on the review channel.
 <!--! add link to the review chanel -->
----
+ 
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Backlog](#backlog)
----
+ 
 
 ## Installation
 To use this work: Clone the repo on your machine, install the necessary packages and run npm start, to execute the project locally.
@@ -30,7 +30,7 @@ To use this work: Clone the repo on your machine, install the necessary packages
   You'll find the bundle in the Dist directory.
 
 ## [🔝 Go to the top](#chuck-jokes)
----
+ 
 
 
 ## Usage
@@ -41,7 +41,7 @@ To use this work: Clone the repo on your machine, install the necessary packages
         npm i --save-dev css-minimizer-webpack-plugin@4.1.0  
 
 ## [🔝 Go to the top](#chuck-jokes)
----
+
 
 ## Backlog
 [My little plan](https://github.com/users/zakariazuck/projects/1/views/1)
