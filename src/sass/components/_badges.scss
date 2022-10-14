@@ -3,7 +3,7 @@
 @mixin badge($bg-color: #e2e2e2) {
   border-radius: 999em;
   background-color: $bg-color;
-  padding: math.div($base-padding, 4) math.div($base-padding, 1);
+  padding: $badge-padding;
   font-weight: normal;
 }
 

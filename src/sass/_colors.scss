@@ -6,8 +6,8 @@
       background-color: $val;
     }
     @if ($val != black and $val != white) {
+
         //* light hover variante
-        
         .text-hover-#{$key}-light {
             &:hover {
                 color: mix(white, $val, 30);
@@ -30,6 +30,5 @@
                 background-color: mix(black, $val, 30);
             }
         }
-        
     }
 }

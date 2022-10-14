@@ -1,10 +1,10 @@
 @mixin btn($bg-color: #e2e2e2) {
+    @extend .br;
     text-decoration: none;
     cursor: pointer;
     display: block;
     border: 0;
-    padding: $base-padding 0;
-    border-radius: $base-border-radius;
+    padding: $button-padding 0;
     background-color: $bg-color;
     width: 100%;
 }
@@ -36,3 +36,5 @@
         }
     }
 }
+
+//* Make a loop to iterate throughout the color and make various buttons.

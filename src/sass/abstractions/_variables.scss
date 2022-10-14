@@ -2,6 +2,7 @@
 
 $white: #f9f9f9;
 $white-two: #ffffff;
+$white-three: #ecebe9;
 
 $black: #303030;
 $black-two: #000000;
@@ -30,6 +31,7 @@ $brown-sorrell-two: #D0BA93;
 $colors: (
   "white": $white,
   "white-two": $white-two,
+  "white-three": $white-three, 
   "black": $black,
   "black-two": $black-two,
   "gray": $gray,
@@ -90,13 +92,15 @@ $btn-fs:(
 
 //* spacing
 
-$base-padding: 14px !default;
+$base-padding: 16px !default;
+$button-padding: 14px;
+$badge-padding: 4px 14px;
 $base-margin: 10px !default;
 
 
 //* border
 
-$base-border-thickness: 0px !default;
+$base-border-thickness: 1px !default;
 $base-border-radius: 2px !default;
 
 
