@@ -21,6 +21,12 @@ const  App = () => {
         </nav>
         <div><a  className="text-white text-hover-white bg-brown-sorrell bg-hover-brown-sorrell-light" href="">Hi!!!</a></div>
       <p>aloha!!</p>
+
+      <article className="card">
+        <h2>Hi</h2>
+        <p>no way</p>
+        <a href=""></a>
+      </article>
       </div>
     )
   }

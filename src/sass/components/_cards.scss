@@ -1,0 +1,43 @@
+.card {
+    transition: 0.4s;
+    border: solid $base-border-thickness $white-three;
+    background-color: $white-two;
+    @extend .br;
+    @extend .p-1;
+    &:hover {
+        box-shadow: $base-box-shadow;
+    }
+    header {
+        background-color: black;
+        // * with badge , type link
+        // * with title, line, rank
+    }
+    h1 {
+        background-color: red;
+        // * with icon, title 
+    }
+    p {
+        //* text
+    }
+    a {
+        // * link to stats
+    }
+
+
+
+}
+
+/*
+* card 1 :      title ,
+*               p , 
+*               a: link to joke page 
+
+* card 2 :      badge + link to trendig filter,
+*               tile + line + rank 
+*               p 
+
+
+* card 3 :      sub section 
+
+
+*/
